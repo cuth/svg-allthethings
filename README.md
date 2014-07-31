@@ -12,7 +12,7 @@ Choosing a web image
 
 | jpg | gif | png | svg |
 |-----|-----|-----|-----|
-| <img src="img/horse.jpg" style="width:100%;height:auto"> | <img src="img/horse.gif" style="width:100%;height:auto"> | <img src="img/horse.png" style="width:100%;height:auto"> | <img src="img/horse.svg" style="width:100%;height:auto"> |
+| <img src="img/horse.jpg" style="width:100%;height:auto"> | <img src="img/horse.gif" style="width:100%;height:auto"> | <img src="img/horse.png" style="width:100%;height:auto"> | <img src="http://cuth.github.io/svg-allthethings/img/horse.svg" style="width:100%;height:auto"> |
 | Many colors | Animation | Transparency | Resolution Independence |
 
 SVG also has animation and transparency but it's not good for photographs.
