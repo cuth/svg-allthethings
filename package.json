@@ -1,0 +1,14 @@
+{
+  "name": "svg-allthethings",
+  "version": "0.0.0",
+  "description": "SVG ALL THE THINGS\r ==================",
+  "main": " ",
+  "scripts": {
+    "test": " "
+  },
+  "author": "Jonathan Cuthbert <jon@cuth.net> (http://cuth.net/)",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.7.2"
+  }
+}
