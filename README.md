@@ -1,7 +1,7 @@
 SVG ALL THE THINGS
 ==================
 
-![SVG - All the Things](http://cuth.net/files/SVG-allthethings/SVG-allthethings.png)
+![SVG - All the Things](img/SVG-allthethings.png)
 
 
 
@@ -12,7 +12,7 @@ Choosing a web image
 
 | jpg | gif | png | svg |
 |-----|-----|-----|-----|
-| <img src="http://cuth.net/files/SVG-allthethings/horse.jpg" style="width:100%;height:auto"> | <img src="http://cuth.net/files/SVG-allthethings/horse.gif" style="width:100%;height:auto"> | <img src="http://cuth.net/files/SVG-allthethings/horse.png" style="width:100%;height:auto"> | <img src="http://cuth.net/files/SVG-allthethings/horse.svg" style="width:100%;height:auto"> |
+| <img src="img/horse.jpg" style="width:100%;height:auto"> | <img src="http://cuth.net/files/SVG-allthethings/horse.gif" style="width:100%;height:auto"> | <img src="http://cuth.net/files/SVG-allthethings/horse.png" style="width:100%;height:auto"> | <img src="http://cuth.net/files/SVG-allthethings/horse.svg" style="width:100%;height:auto"> |
 | Many colors | Animation | Transparency | Resolution Independence |
 
 ### Why do we care about different resolutions?
@@ -184,9 +184,9 @@ svg4everybody
 
 ### Tooling
 
-Grunticon, iconizer, npm/gulp/grunt
-https://github.com/Wenqer/gulp-base64
-https://github.com/akoenig/gulp-imacss
+Grunticon, iconizer, npm/gulp/grunt  
+https://github.com/Wenqer/gulp-base64  
+https://github.com/akoenig/gulp-imacss  
 
 
 
