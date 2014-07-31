@@ -144,7 +144,7 @@ Iframe
 <iframe src="image.svg"></iframe>
 ```
 
-Inline
+Inline Use
 ```html
 <svg><use xlink:href="image.svg#imageId"></use></svg>
 ```
