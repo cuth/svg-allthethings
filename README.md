@@ -92,10 +92,10 @@ For the sake of brevity in paths, superfluous white space and separators can be 
 
 [The viewport, viewBox, & preserveAspectRatio](http://sarasoueidan.com/blog/svg-coordinate-systems/)
 
-#### viewBox
+`viewBox`  
 Attribute that sets the size of the canvas that all the coordinates inside the SVG use.
 
-#### preserveAspectRatio
+`preserveAspectRatio`  
 Attribute that determines the relationship between the viewBox and viewport. Important for maintaining aspect ratio in scaling.
 
 ### Basic Shapes
@@ -156,13 +156,15 @@ div {
 }
 ```
 
+[Test Embed](test-embed.html)
+
 
 ### [Styling](http://www.w3.org/TR/SVG/styling.html)
 
-#### Common attributes
-fill, stroke, transform
-currentColor
-CSS hooks on inline
+*Common attributes*  
+fill, stroke, transform  
+currentColor  
+CSS hooks on inline  
 
 
 ### Animating
