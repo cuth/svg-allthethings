@@ -10,7 +10,7 @@ Why SVG?
 
 Choosing a web image
 
-| jpg | gif | png | svg |
+| [jpg](img/horse.jpg) | [gif](img/horse.gif) | [png](img/horse.png) | [svg](svg/horse.svg) |
 |-----|-----|-----|-----|
 | <img src="img/horse.jpg" style="width:100%;height:auto"> | <img src="img/horse.gif" style="width:100%;height:auto"> | <img src="img/horse.png" style="width:100%;height:auto"> | <img src="http://cuth.github.io/svg-allthethings/img/horse.svg" style="width:100%;height:auto"> |
 | Many colors | Animation | Transparency | Resolution Independence |
