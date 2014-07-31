@@ -17,10 +17,10 @@ Choosing a web image
 
 SVG also has animation and transparency but it's not good for photographs.
 
-*Why do we care about different resolutions?*  
+**Why do we care about different resolutions?**  
 retina screens, mobile phones, print, zoom
 
-*SVG vs Icon Fonts*  
+**SVG vs Icon Fonts**  
 http://css-tricks.com/icon-fonts-vs-svg/  
 http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/  
 
@@ -156,12 +156,12 @@ div {
 }
 ```
 
-[Test Embed](test-embed.html)
+[Test Embed](http://cuth.github.io/svg-allthethings/test-embed.html)
 
 
 ### [Styling](http://www.w3.org/TR/SVG/styling.html)
 
-*Common attributes*  
+**Common attributes**  
 fill, stroke, transform  
 currentColor  
 CSS hooks on inline  
