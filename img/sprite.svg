@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+
+    <symbol id="Hamburger" viewBox="0 0 32 32" preserveAspectRatio="xMidYMid">
+        <rect x="0" y="3" fill="currentColor" width="32" height="5" rx="3" ry="3"/>
+        <rect x="0" y="14" fill="currentColor" width="32" height="5" rx="3" ry="3"/>
+        <rect x="0" y="25" fill="currentColor" width="32" height="5" rx="3" ry="3"/>
+    </symbol>
+
+    <symbol id="Email" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid">
+        <path fill="#878787" d="M448,64H64C28.656,64,0,92.656,0,128v256c0,35.344,28.656,64,64,64h384c35.344,0,64-28.656,64-64V128C512,92.656,483.344,64,448,64z M342.656,234.781l135.469-116.094c0.938,3,1.875,6,1.875,9.313v256c0,2.219-0.844,4.188-1.281,6.281L342.656,234.781z M448,96c2.125,0,4,0.813,6,1.219L256,266.938L58,97.219C60,96.813,61.875,96,64,96H448z M33.266,390.25C32.828,388.156,32,386.219,32,384V128c0-3.313,0.953-6.313,1.891-9.313L169.313,234.75L33.266,390.25z M64,416c-3.234,0-6.172-0.938-9.125-1.844l138.75-158.563l51.969,44.531C248.578,302.719,252.297,304,256,304s7.422-1.281,10.406-3.875l51.969-44.531l138.75,158.563C454.188,415.063,451.25,416,448,416H64z"/>
+    </symbol>
+
+    <symbol id="Print" viewBox="0 0 50 50" preserveAspectRatio="xMidYMid">
+        <circle fill="#878787" cx="43" cy="21" r="2"/>
+        <path d="M40,15V1H10v14" fill="none" stroke="#878787" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        <path d="M40,29v20H10V29H40z" fill="none" stroke="#878787" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        <path d="M10,40H3  c-1.104,0-2-0.896-2-2V17c0-1.104,0.896-2,2-2h44c1.104,0,2,0.896,2,2v21c0,1.104-0.896,2-2,2h-7" fill="none" stroke="#878787" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        <line fill="none" stroke="#878787" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="35" x2="15" y1="35" y2="35"/>
+        <line fill="none" stroke="#878787" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="31" x2="15" y1="39" y2="39"/>
+        <line fill="none" stroke="#878787" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="35" x2="15" y1="43" y2="43"/>
+    </symbol>
+
+    <symbol id="Search" viewBox="0 0 47.3 45.8" preserveAspectRatio="xMidYMid">
+        <circle fill="none" stroke="#ffffff" stroke-width="7" stroke-miterlimit="10" cx="17.3" cy="17.3" r="13.8"/>
+        <line fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" x1="27.8" y1="26.4" x2="43.8" y2="42.3"/>
+    </symbol>
+
+</svg>

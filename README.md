@@ -28,10 +28,10 @@ http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/
 What is SVG?
 ------------
 
-Stands for Scalable Vector Graphics. 
-It is an XML file that can be edited in any text editor.  
-Replaces PGML and VML as the standard vector graphic for the web.  
-SVG 1.1 Second Edition is the current standard; SVG 2 is under development.  
+* Stands for **Scalable Vector Graphics**. 
+* It is an *XML* file that can be edited in any text editor.  
+* Replaces *PGML* and *VML* as the standard vector graphic for the web.  
+* **SVG 1.1 Second Edition** is the *current standard*; **SVG 2** is *under development*.  
 
 Specs - [www.w3.org/TR/SVG/](http://www.w3.org/TR/SVG/)
 
@@ -156,18 +156,20 @@ div {
 }
 ```
 
-[Test Embed](http://cuth.github.io/svg-allthethings/test-embed.html)
+**[Test Embed](http://cuth.github.io/svg-allthethings/test-embed.html)**
 
 
 ### [Styling](http://www.w3.org/TR/SVG/styling.html)
 
 **Common attributes**  
-fill, stroke, transform  
-currentColor  
+`fill`, `stroke`, `transform`  
+`currentColor`  
 CSS hooks on inline  
 
 
 ### Animating
+
+
 
 multiple techniqes, javascript libraries/frameworks, built in animation, tricks
 

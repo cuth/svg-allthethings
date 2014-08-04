@@ -32,9 +32,13 @@ iframe {
     color: red;
     fill: orange;
 }
+
+/* Selector using only SVG classes */
 .InlineHorse .legs {
     fill: blue;
 }
+
+/* Selector crossing the HTML and SVG boundry */
 .Horse .legs {
     fill: green;
 }
@@ -63,7 +67,7 @@ iframe {
 </code>
         </pre>
 
-        <h1>Inline Use</h1>
+        <h1>Inline (Use)</h1>
         <svg class="Horse"><use xlink:href="img/embed-horse.svg#Horse"></use></svg>
         <script src="js/svg4everybody.js"></script>
         <pre>
