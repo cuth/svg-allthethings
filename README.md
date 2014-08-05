@@ -164,15 +164,21 @@ div {
 **Common attributes**  
 `fill`, `stroke`, `transform`  
 `currentColor`  
-CSS hooks on inline  
 
 
 ### Animating
 
+**Built in animation** using *[animate elements](http://www.w3.org/TR/SVG/animate.html)* and *[SMIL](http://www.w3.org/TR/REC-smil/)*  
+[Simple Example](http://oak.is/thinking/animated-svgs/)
 
+**Javascript frameworks**
+[Raphaël](http://raphaeljs.com/) ([examples](http://codepen.io/tag/raphael/))  
+[d3](http://d3js.org/)  
+[Snap.svg](http://snapsvg.io/)  
+[bonsai](http://bonsaijs.org/)
 
-multiple techniqes, javascript libraries/frameworks, built in animation, tricks
-
+**Tricks**
+[Line animation trick](http://product.voxmedia.com/2013/11/25/5426880/polygon-feature-design-svg-animations-for-fun-and-profit)
 
 
 Sprites
@@ -180,34 +186,65 @@ Sprites
 
 Sprites are used to lower the amount of requests made to the server. With PNGs this was done by flattening all the images on to one image and clipping the image to only show the portion that you wanted. This is still possible with SVG but there are better ways to do this.
 
-Sprite svg using defs or symbol
+**Using `defs` or `symbol`**  
+[svg4everybody for IE and Android support](https://github.com/jonathantneal/svg4everybody)  
+[Test Sprite](http://cuth.github.io/svg-allthethings/test-sprite.html)  
 
-Sprite using data-uri embeded in CSS
+**Using data-uri embeded in CSS**  
+[Test Data URI](http://cuth.github.io/svg-allthethings/test-datauri.html)  
+Drawbacks? Can't style or edit. CSS bloat.  
 
-### Limitations
-styling
-svg4everybody
+Tooling
+-------
 
-### Tooling
+Generate sprite sheets, data-uris or png fallbacks.
 
-Grunticon, iconizer, npm/gulp/grunt  
-https://github.com/Wenqer/gulp-base64  
-https://github.com/akoenig/gulp-imacss  
+**Web tools**  
+[Grumpicon](http://www.grumpicon.com/)  
+[iconizr](http://iconizr.com/)  
+
+**NPM**  
+[gulp-base64](https://github.com/Wenqer/gulp-base64)  
+[gulp-imacss](https://github.com/akoenig/gulp-imacss)  
+[Many more](https://www.npmjs.org/search?q=svg%20sprite)  
 
 
 
 Browser Support
 ---------------
 
-Can I use, SVG, inline svg, svg animations
+[Can I Use](http://caniuse.com/#search=svg)
+
+* [basic support](http://caniuse.com/#feat=svg)
+* [effects for HTML](http://caniuse.com/#feat=svg-html)
+* [filters](http://caniuse.com/#feat=svg-filters)
+* [fonts](http://caniuse.com/#feat=svg-fonts)
+* [fragment identifiers (sprites)](http://caniuse.com/#feat=svg-fragment)
+* [CSS backgrounds](http://caniuse.com/#feat=svg-css)
+* [HTML `img` element](http://caniuse.com/#feat=svg-img)
+* [SMIL animation](http://caniuse.com/#feat=svg-smil)
+* [inline](http://caniuse.com/#feat=svg-html5)
+* [blending of HTML/SVG elements](http://caniuse.com/#feat=css-mixblendmode)
+
 
 ### Testing for support
-Modernizr
 
-http://css-tricks.com/test-support-svg-img/
+[Modernizr](http://modernizr.com/download/#-inlinesvg-svg-svgclippaths-teststyles-svg_filters)
+
+* basic support
+* inline
+* clip paths
+* filters
+
+[hasFeature](http://css-tricks.com/test-support-svg-img/)
+
+```js
+document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1");
+```
 
 
-But Wait there's more
----------------------
+
+There is much more
+------------------
 
 http://css-tricks.com/mega-list-svg-information/
