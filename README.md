@@ -171,13 +171,13 @@ div {
 **Built in animation** using *[animate elements](http://www.w3.org/TR/SVG/animate.html)* and *[SMIL](http://www.w3.org/TR/REC-smil/)*  
 [Simple Example](http://oak.is/thinking/animated-svgs/)
 
-**Javascript frameworks**
+**Javascript frameworks**  
 [Raphaël](http://raphaeljs.com/) ([examples](http://codepen.io/tag/raphael/))  
 [d3](http://d3js.org/)  
 [Snap.svg](http://snapsvg.io/)  
 [bonsai](http://bonsaijs.org/)
 
-**Tricks**
+**Tricks**  
 [Line animation trick](http://product.voxmedia.com/2013/11/25/5426880/polygon-feature-design-svg-animations-for-fun-and-profit)
 
 
@@ -187,7 +187,7 @@ Sprites
 Sprites are used to lower the amount of requests made to the server. With PNGs this was done by flattening all the images on to one image and clipping the image to only show the portion that you wanted. This is still possible with SVG but there are better ways to do this.
 
 **Using `defs` or `symbol`**  
-[svg4everybody for IE and Android support](https://github.com/jonathantneal/svg4everybody)  
+[svg4everybody](https://github.com/jonathantneal/svg4everybody) (IE and Android support)  
 [Test Sprite](http://cuth.github.io/svg-allthethings/test-sprite.html)  
 
 **Using data-uri embeded in CSS**  
